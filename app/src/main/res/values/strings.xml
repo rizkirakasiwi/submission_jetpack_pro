@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pilem</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV Show</string>
+    <string name="title">Title</string>
+    <string name="genre">genre</string>
+    <string name="poster">Poster</string>
+    <string name="popular_now">Popular now</string>
+    <string name="rating">rating</string>
+    <string name="you_might_like_it">You might like it</string>
+    <string name="description">description</string>
+    <string name="detail">Detail</string>
+    <string name="genre_s">Genre: %s</string>
+    <string name="year_s">Year: %s</string>
+    <string name="year">year</string>
+</resources>
