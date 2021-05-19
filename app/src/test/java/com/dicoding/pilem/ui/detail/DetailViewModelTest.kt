@@ -21,9 +21,16 @@ class DetailViewModelTest {
         detailViewModel = DetailViewModel()
     }
 
+    /**
+     * data yang dikirimkan dari movie dan tv show di ambil oleh detail
+     * data di add ke viewmodel
+     * memastikan data detail tidak kosong
+     * memastikan data detail sama dengan data yang dikirimkan
+     * */
     @Test
     fun getDetailData(){
-        val dummy = DataDummy.generateDummyMovie()[0]
+        val dummy = DataDummy.generateDummy()[0]
+
         detailViewModel.addDetail(dummy)
         assertNotNull(detailViewModel.detailData.getOrAwaitValue())
         assertEquals(detailViewModel.detailData.getOrAwaitValue(), dummy)

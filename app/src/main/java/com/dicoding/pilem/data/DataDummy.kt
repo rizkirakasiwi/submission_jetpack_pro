@@ -1,7 +1,7 @@
 package com.dicoding.pilem.data
 
 object DataDummy {
-    fun generateDummyMovie() : ArrayList<FilmData>{
+    fun generateDummy() : ArrayList<FilmData>{
         return arrayListOf(
             FilmData(
                 1,

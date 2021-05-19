@@ -5,6 +5,6 @@ import com.dicoding.pilem.data.DataDummy
 import com.dicoding.pilem.data.FilmData
 
 class MovieViewModel : ViewModel() {
-    val popularMovieData = DataDummy.generateDummyMovie().filter { filmData: FilmData -> filmData.isPopular }
-    val movieData = DataDummy.generateDummyMovie().filter { filmData: FilmData -> !filmData.isPopular }
+    val popularMovieData = DataDummy.generateDummy().filter { filmData: FilmData -> filmData.isPopular }
+    val movieData = DataDummy.generateDummy().filter { filmData: FilmData -> !filmData.isPopular }
 }
